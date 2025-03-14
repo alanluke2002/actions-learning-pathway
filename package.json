@@ -1,12 +1,12 @@
 {
   "name": "actions-learning-pathway",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "next lint"
+    "test": "next lint --no-watch --max-warnings=0"
   },
   "dependencies": {
     "next": "14.2.21",
